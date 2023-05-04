@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(72, 63, 63);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: auto;
+    padding: 0 15px 0 15px;
+    font-family: "vollkorn", serif;
+}
+
+#title {
+    font-size: 50px;
+    margin: 10px;
+
+}
+
+#sub-title {
+    margin: -5px 0px 70px 0px;
+    color: dodgerblue
+}
+
+#img-div {
+    margin: 0 auto;
+    max-width: auto;
+    height: auto;
+    display: block;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    line-height: 5px;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px auto 20px auto;
+    display: inline-block;
+    text-align: left;
+}
+
+strong {
+    color: hotpink;
+}
+
+#link {
+    color: goldenrod;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+#detail-para {
+    text-align: justify;
+    margin: 0px 25px 0px 25px;
+    text-indent: 25px;
+}
+
+@media all and (max-width: 460px; ) {
+    body {
+        font-size: 12px;
+        padding: 0px 7.5px 0px 7.5px;
+    }
+
+    #title {
+        font-size: 25px;
+        margin: 4px;
+    }
+
+    #sub-title {
+        margin: auto;
+    }
+
+    #image {
+        max-width: 100%;
+        height: auto;
+        display: inline;
+        margin: auto;
+    }
+
+    #img-div {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #img-caption {
+        line-height: 2.5px;
+        font-size: 8px;
+    }
+
+    #detail-para {
+        text-align: justify;
+        margin: 0px 10px 0px 10px;
+        text-indent: 10px;
+    }
+}
